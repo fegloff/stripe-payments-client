@@ -65,7 +65,7 @@ export default function CheckoutForm() {
                 // return_url: "https://stripe-client-demos-country.netlify.app",
                 return_url: "http://localhost:3000",
             },
-        });
+        }); 
 
         // This point will only be reached if there is an immediate error when
         // confirming the payment. Otherwise, your customer will be redirected to
